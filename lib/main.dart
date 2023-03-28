@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'common/common_channel.dart';
 import 'home_page.dart';
 
 void main() => runApp(const MyApp());
@@ -11,6 +12,8 @@ void toMarketPages() => runApp(const HomePageWidget());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
+
 
   // This widget is the root of your application.
   @override
